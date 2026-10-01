@@ -19,3 +19,4 @@
     font-size: 16px;
     cursor: pointer;
 }
+.hero-cta { display: inline-block; padding: 10px 20px; border-radius: 8px; background: #6255d9; color: white; font-weight: 700; text-decoration: none; }

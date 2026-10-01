@@ -3,7 +3,7 @@ import "./Footer.css"
 function Footer(){
     return(
         <footer>
-            <p> &copy; 2026 <span>ReactAcademy</span> Taller 3 -- Fundamentos de React </p>
+        <p> &copy; 2026 <span>ReactAcademy</span> Taller 04 — Rutas y navegación</p>
         </footer>
     );
 }

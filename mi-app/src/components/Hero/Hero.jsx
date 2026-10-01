@@ -1,4 +1,5 @@
 import "./Hero.css";
+import { Link } from "react-router-dom";
 
 function Hero() {
     return (
@@ -11,7 +12,7 @@ function Hero() {
                 Domina la librería más popular del frontend con proyectos prácticos y reales
             </p>
 
-            <button>Ver Cursos</button>
+            <Link className="hero-cta" to="/cursos">Ver Cursos</Link>
         </section>
     );
 }

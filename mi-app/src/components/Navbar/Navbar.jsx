@@ -1,29 +1,31 @@
 import "./Navbar.css";
+import { NavLink } from "react-router-dom";
 function Navbar() {
     const SiteName = "ReactAcademy"
     return (
         <nav>
             <div>
-                {SiteName}
+                <NavLink className="brand" to="/">{SiteName}</NavLink>
             </div>
 
             <div>
                 <ul>
                     <li>
-                        <a href="#">
+                        <NavLink to="/" end>
                         Inicio 
-                        </a>
+                        </NavLink>
                     </li>
                     <li>
-                        <a href="#">
+                        <NavLink to="/cursos">
                         Cursos 
-                        </a>
+                        </NavLink>
                     </li>
                     <li>
-                        <a href="#">
+                        <NavLink to="/nosotros">
                         Nosotros
-                        </a>
+                        </NavLink>
                     </li>
+                    <li><NavLink to="/login">Iniciar sesión</NavLink></li>
                 </ul>
             </div>
         </nav>

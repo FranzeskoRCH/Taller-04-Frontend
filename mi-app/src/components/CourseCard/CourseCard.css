@@ -10,6 +10,7 @@
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
+    color: #d1d5de;
 }
 
 .course-emoji {
@@ -31,7 +32,10 @@
 .course-card h3 {
     margin: 0 0 15px 0;
     font-size: 24px;
+    color: #f3f4f6;
 }
+
+.course-card p { color: #c3c7d0; line-height: 1.65; }
 
 .course-card {
     min-height: 400px;
